@@ -1,0 +1,31 @@
+{
+  "name": "valve-lzss",
+  "version": "1.0.8",
+  "author": {
+    "name": "SystemVll",
+    "email": "69421356+SystemVll@users.noreply.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SystemVll/valve-lzss.git"
+  },
+  "module": "src/main.js",
+  "types": "src/main.d.ts",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "description": "LZSS compression algorithm implementation in Javascript",
+  "keywords": [
+    "lzss",
+    "compression",
+    "algorithm",
+    "typescript",
+    "valve",
+    "source-engine"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "bun-types": "^1.2.0"
+  }
+}
